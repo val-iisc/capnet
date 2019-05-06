@@ -40,6 +40,10 @@ bash run_metrics.sh
 ```
 Make sure that the trained model exists before running the metric calculation code. Use the option *--visualize* in place of *--tqdm* to visualize the reconstructed 3D point clouds.
 
+## TODO
+1. Provide pre-trained models
+2. Add code for test-stage optimization
+3. Add dataset and codes for training and evaluation on Pix3D dataset
 
 ## Citation
 If you make use of the code, please cite the following work:
