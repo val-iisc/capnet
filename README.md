@@ -1,6 +1,6 @@
 # CAPNet
 Source codes for the paper [CAPNet: Continuous Approximation Projection For 3D Point Cloud Reconstruction Using 2D Supervision](https://arxiv.org/abs/1811.11731).</br>
-Accepted at *Thirty-Third AAAI Conference on Artificial Intelligence" (AAAI-19)*
+Accepted at *Thirty-Third AAAI Conference on Artificial Intelligence (AAAI-19)*
 
 ## Overview
 CAPNet proposes a 2D supervised approach for single image based 3D point cloud reconstruction. To obtain smooth projections from the reconstructed point and to enable end-to-end training of the network, we propose a novel differentiable rendering module termed CAPNet. Additionally, for effective backpropogation of gradients and to avoid outliers in our predictions, we introduce a loss term called affinity loss. We experimentally demostrate that through the use of just 2D mask supervision from multiple view points, it is possible to obtain reconstruction performance close to that of 3D supervised approaches. <br>
